@@ -96,3 +96,68 @@ button {
     background: rgb(255, 240, 240);
     color: rgb(220, 72, 72)
    }
+
+   @media (max-width: 600px) {
+    .container{
+        height: 85vh;
+        width: 70vw;
+    }
+    .showbox{
+        width: 55vw;
+    }
+    .botones{
+        display: block;
+        text-align: center;
+    }
+    .botonBorrar{
+        margin-top: 20px;
+    }
+   }
+   @media (max-height: 600px) {
+    .container{
+        height: 80vh;
+        width: 65vw;
+    }
+    .botonBorrar{
+        margin-top: 25px;
+    }
+    .showbox{
+        width: 52vw;
+    }
+   }
+   @media (max-width: 400px) {
+    .container{
+        height: 90vh;
+        width: 75vw;
+    }
+    .botonBorrar{
+        margin-top: 1px;
+    }
+   }
+   @media (max-width: 350px) {
+    .container{
+        height: 87vh;
+    }
+    button {
+        background-color: lightcoral;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 10em;
+        height: 3.3em;
+        border-radius: 0.5rem;
+        color: #eee;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+        margin: 12px;
+       }
+    .botonBorrar{
+        margin-top: 1px;
+    }
+    .showbox{
+        width: 60vw;
+    }
+    textarea{
+        font-size: x-large;
+    }
+   }
